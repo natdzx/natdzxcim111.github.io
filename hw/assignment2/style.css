@@ -25,13 +25,14 @@ h2,h3{font-family: 'Sacramento', cursive;font-size: 30px;font-weight: bold;}
 .white-bg {background-color: white;
 padding: 30px}
 
-.pink-text {color:#F4C2B6}
+.pink-text {color:#F7E4D9}
 
 .largetext {font-size: 40px; color:#ED7B76}
 
 .wrapper{
-width:400px;
+width:960px;
 min-height: 400px;
+border: 3px solid black;
 margin-left: auto;
 margin-right: auto;
 padding: 20px;

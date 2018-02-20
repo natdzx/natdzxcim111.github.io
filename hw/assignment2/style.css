@@ -19,6 +19,8 @@ ul,li,th, td,tr,section,p {font-family: 'Lato', sans-serif;font-size: 16px;}
 
 address {color: white}
 
+.bulletstyle {color: #ED7B76;font-weight: bold;}
+
 .teal-bg {background-color:#28574F}
 
 .white-bg {background-color: white;

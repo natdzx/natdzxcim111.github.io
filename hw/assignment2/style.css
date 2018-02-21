@@ -3,14 +3,13 @@ font-family: 'Sacramento', cursive;
 font-family: 'Lato', sans-serif;
 */
 
-#maintitle{font-family: 'Sacramento', cursive;
-color: #163B3D;font-size:60px;}
+#maintitle{font-family: 'Sacramento', cursive;color: #163B3D;font-size:60px;}
 
 #table {font-size: 16px;
 width: 300px;
 border: 3px dotted black;
 margin-left: 2px;
-}
+padding: 10px;}
 
 a{color:#EC7B76;text-decoration: none}
 a:hover { color:black}

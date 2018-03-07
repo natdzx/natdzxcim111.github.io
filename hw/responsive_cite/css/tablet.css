@@ -1,0 +1,23 @@
+header h1 {height: 100px;
+padding-top: 50px;
+text-align: center;}
+
+nav ul {text-align: right;}
+
+nav li {text-align: center;
+font-size: 28px;
+padding: 25px;
+padding-top: 15px;
+padding-bottom:15px;
+display: inline;
+}
+
+.gallery {width:100%;}
+
+.gallery li {
+width:45%;
+margin:2%;
+margin-top: 10px;
+margin-bottom: 10px;
+float:left;
+}

@@ -17,8 +17,6 @@ display: inline-block;
 float: none;
 }
 
-
-
 .footer {position: fixed;}
 
 .push {display: block; height: 100px;}

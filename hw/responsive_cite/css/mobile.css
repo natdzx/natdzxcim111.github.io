@@ -7,6 +7,24 @@ padding-bottom:15px;
 .square-img {display: none;}
 
 .gallery li {
-margin:20px;
-
+margin:10px;
 }
+
+.gallery li {
+width:20%;
+margin:10px;
+margin-top: 10px;
+margin-bottom: 10px;
+float:left;
+
+#header {
+background-color: #f4e6e6;
+padding-bottom: 10px;
+padding-top: 25px;
+height: 40px;
+font: 'Questrial';
+font-family: sans-serif;
+font-size: 15px;
+color: #18231d;
+letter-spacing: 30px;
+align-content: center;}

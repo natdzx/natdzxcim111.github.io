@@ -32,9 +32,9 @@ text-align: center;}
 padding-top: 20px;
 padding-bottom: 100px;}
 
-.resumemain {width: 300px;
+.resumemain {width: 100px;
 margin-left: auto;
 margin-right: auto; margin-bottom: 100px;
-padding-left: 20px;
+padding-left: 10px;
 border: 2px dotted pink;
 line-height: 10px;}

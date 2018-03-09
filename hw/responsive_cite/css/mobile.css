@@ -4,18 +4,14 @@ padding-top: 15px;
 padding-bottom:15px;
 }
 
-.square-img {display: none;}
+
 
 .gallery li {
-margin:10px;
-}
-
-.gallery li {
-width:20%;
-margin:10px;
+width:100%;
+margin:100px;
 margin-top: 10px;
 margin-bottom: 10px;
-float:left;
+float:left;}
 
 #header {
 background-color: #f4e6e6;

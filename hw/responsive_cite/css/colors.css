@@ -1,8 +1,6 @@
 /*font-family: 'Questrial', sans-serif;
-font-family: 'Raleway', sans-serif;*/
-
-
-
+font-family: 'Raleway', sans-serif;font-family: 'Cormorant Garamond', serif;
+font-family: 'Scheherazade', serif;*/
 
 .me {padding-left: 200px;
 padding-top: 20px;
@@ -25,7 +23,8 @@ align-items: center;align-items: stretch;}
 #aboutme {
 padding-bottom: 5px;
 margin-bottom: 5px;
-font: 'Questrial';
+font: 'raleway';
+font-weight: 300;
 font-family: sans-serif;
 font-size: 60px;
 color: #18231d;
@@ -74,34 +73,66 @@ padding-top: 20px;
 padding-bottom: 50px;}
 
 nav a {text-decoration:none;  }
-nav a:hover {color: #f4e6e6;text-decoration:none;  }
+nav a:hover {color: #f4e6e6;text-decoration:none;}
 
 img{ max-width: 100%;}
 
-footer p {padding: 25px;}
+footer p {padding: 25px; }
 
 
+ul {color: #18231d;font: 'raleway';font-weight: 300;
+font-family: sans-serif; font-size: 15px; list-style: circle;
+margin: 5px; line-height: 20px;
+padding-bottom: 10px;}
 
 /*portfolio layout stuff*/
+
+.gallery li:hover {opacity: 0.5;}
 
 .gallery {
   display: block;
   margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto;
+
+}
 
 .gallery ul {
   padding: 0;
   margin: 0;
 list-style-type: none;
+
 }
 
 .gallery {width:960px;}
+
 .gallery li {
 width:300px;
 height: 250px;
-margin:10px;
+padding-bottom:100px;
 float:left;
 }
+
+.resumemain {width: 576px;
+margin-left: auto;
+margin-right: auto; margin-bottom: 200px;
+padding-left: 20px;
+border: 2px dotted pink;
+line-height: 10px;}
+
+h2 {
+font: 'Questrial';
+font-family: sans-serif;
+font-size: 20px;
+color: #18231d;
+padding-left: 220px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+
+h3 {color: #18231d;font: 'raleway';font-weight: 300;
+font-family: sans-serif; font-size: 30px; }
+
 
 /* add clear to make float work, to  make placeholder images do
  http://placehold.it/imagesize */

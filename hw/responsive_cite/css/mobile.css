@@ -5,11 +5,18 @@ padding-bottom:15px;
 }
 
 .gallery li {
-width:100%;
+width:50%;
 margin:50%;
 margin-top: 10px;
 margin-bottom: 10px;
 float:left;}
+
+.gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;}
+
 
 #header {
 background-color: #f4e6e6;
@@ -32,7 +39,7 @@ text-align: center;}
 padding-top: 20px;
 padding-bottom: 100px;}
 
-.resumemain {width: 100px;
+.resumemain {width: 400px;
 margin-left: auto;
 margin-right: auto; margin-bottom: 100px;
 padding-left: 10px;

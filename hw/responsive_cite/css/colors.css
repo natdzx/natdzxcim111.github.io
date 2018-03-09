@@ -93,17 +93,12 @@ padding-bottom: 10px;}
   display: block;
   margin-left: auto;
   margin-right: auto;
-
-}
+  width:960px;}
 
 .gallery ul {
   padding: 0;
   margin: 0;
-list-style-type: none;
-
-}
-
-.gallery {width:960px;}
+list-style-type: none;}
 
 .gallery li {
 width:300px;

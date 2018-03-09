@@ -6,7 +6,7 @@ padding-bottom:15px;
 
 .gallery li {
 width:100%;
-margin:20%;
+margin:50%;
 margin-top: 10px;
 margin-bottom: 10px;
 float:left;}
@@ -27,3 +27,14 @@ align-content: center;}
 header h1 {height: 100px;
 padding-top: 50px;
 text-align: center;}
+
+.me {padding-left: 50px;
+padding-top: 20px;
+padding-bottom: 100px;}
+
+.resumemain {width: 300px;
+margin-left: auto;
+margin-right: auto; margin-bottom: 100px;
+padding-left: 20px;
+border: 2px dotted pink;
+line-height: 10px;}

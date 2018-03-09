@@ -4,10 +4,9 @@ padding-top: 15px;
 padding-bottom:15px;
 }
 
-
 .gallery li {
 width:100%;
-margin:100px;
+margin:20%;
 margin-top: 10px;
 margin-bottom: 10px;
 float:left;}
@@ -24,3 +23,7 @@ font-size: 15px;
 color: #18231d;
 letter-spacing: 30px;
 align-content: center;}
+
+header h1 {height: 100px;
+padding-top: 50px;
+text-align: center;}

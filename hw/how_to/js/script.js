@@ -25,15 +25,15 @@ $(function(){
   $('#yes').on('click', function(){
       $('#surveytitle').css("background-color", "green");
       $('#survey').css({
-        "border": "1px solid green",
-        "background":"#ccc"
+        "border": "2px solid green",
+        "background":"#c6c9fc"
     });
   });
   $('#no').on('click', function(){
       $('#surveytitle').css("background-color", "red");
       $('#survey').css({
-        "border": "1px solid red",
-        "background":"#ccc"
+        "border": "2px solid red",
+        "background":"#c6c9fc"
     });
   });
 

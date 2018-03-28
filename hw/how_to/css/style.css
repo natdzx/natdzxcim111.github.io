@@ -1,2 +1,18 @@
 #howTo li {display:none;}
 #howTo li.active {display: block;}
+
+/*font-family: 'Montserrat:200', sans-serif;;
+font-family: 'Cabin Sketch', cursive;*/
+
+h1 {font-family: 'Cabin Sketch', cursive; font-size: 50px;color: #c6c9fc}
+h2 {font-family: 'Cabin Sketch', cursive; font-size: 25px; color: #3d82ab;margin-top: 40px;}
+p{font-family: 'Montserrat:200', sans-serif;font-size: 15px;}
+button {font-family: 'Cabin Sketch', cursive; background-color:#c6e8fc;
+font-size: 20px; margin-top: 20px; }
+
+.container {display: block;width:750px;margin-left: 250px; margin-top: 50px; border:2px; border-style: dotted;border-color: #c6c9fc; padding:20px;}
+img {display: block;width:350px;margin-left: 180px; margin-top: 25px;margin-bottom: 25px;}
+
+#surveytitle {color: #ffffff;padding-left: 185px;}
+#yes {margin-bottom: 25px; margin-left: 320px}
+#no {margin-bottom: 25px; margin-left: 5px}

@@ -1,7 +1,7 @@
 $(function(){
   //alert("hello");
 
-  $('#getStarted,#finish,#previous,.hide').hide();
+  $('#getStarted,#finish,#previous,.hide,#survey').hide();
 
   $('#title').on('mouseover', function(){
     $('.fa-arrow-alt-circle-left').toggleClass('fa-arrow-alt-circle-right');
@@ -18,6 +18,23 @@ $(function(){
 
     $('#finish').on('click', function(){
       $('.hide,#next,#previous,#finish').hide();
+      $('#survey').show();
+  });
+
+//survey
+  $('#yes').on('click', function(){
+      $('#surveytitle').css("background-color", "green");
+      $('#survey').css({
+        "border": "1px solid green",
+        "background":"#ccc"
+    });
+  });
+  $('#no').on('click', function(){
+      $('#surveytitle').css("background-color", "red");
+      $('#survey').css({
+        "border": "1px solid red",
+        "background":"#ccc"
+    });
   });
 
 

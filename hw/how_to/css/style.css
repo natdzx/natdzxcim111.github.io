@@ -10,7 +10,7 @@ p{font-family: 'Montserrat:200', sans-serif;font-size: 15px;}
 button {font-family: 'Cabin Sketch', cursive; background-color:#c6e8fc;
 font-size: 20px; margin-top: 20px; }
 
-body {display: block;width:750px;margin-left: 250px; margin-top: 50px; border:2px; border-style: dotted;border-color: #c6c9fc; padding:20px;}
+.alignment {display: block;width:750px;margin-left: 250px; margin-top: 50px; border:2px; border-style: dotted;border-color: #c6c9fc; padding:20px;}
 img {display: block;width:350px;margin-left: 180px; margin-top: 25px;margin-bottom: 25px;}
 
 #surveytitle {color: #c6e8fc;padding-left: 185px;}

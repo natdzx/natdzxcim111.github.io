@@ -4,8 +4,11 @@
     <meta charset="utf-8">
     <title>JQ Plugin</title>
   <link rel="stylesheet" href="gallery/css/blueimp-gallery.min.css">
+  <link rel="stylesheet" href="style.css"
   </head>
   <body>
+
+    <h1>Traveling Through Italy</h1>
     <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
     <!-- <div id="blueimp-gallery" class="blueimp-gallery">
         <div class="slides"></div>
@@ -27,6 +30,7 @@
     <ol class="indicator"></ol>
 </div>
 
+<div id="blueimp-gallery-container">
 <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
 <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
     <div class="slides"></div>
@@ -36,10 +40,11 @@
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
 </div>
+</div>
 
 
 
-    <div id="links">
+    <div id="links" style="display:none">
     <a href="images/buildings.jpg" title="Buildings">
         <img src="images/buildings.jpg" alt="Buildings">
     </a>
@@ -94,6 +99,8 @@ blueimp.Gallery(
     }
 );
 </script>
+
+<p> Welcome to my cite about traveling through Venice, Italy. </p>
 
   </body>
 </html>

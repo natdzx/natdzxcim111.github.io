@@ -2,7 +2,7 @@ header h1 {height: 100px;
 padding-top: 50px;
 text-align: center;}
 
-nav ul {text-align: center;
+nav ul {text-align: right;
 width: 100%;
 max-width: 960px;
 margin-left: auto;
@@ -10,14 +10,17 @@ margin-right: auto;}
 
 nav li {text-align: center;
 font-size: 32px;
-padding: 25px;
+padding: 25px
 padding-top: 15px;
 padding-bottom:15px;
-display: inline-block;
-float: none;
+display: inline;
 }
 
-.footer {position: fixed;}
+.image-bg {
+background-image: url('../images/leaves.jpeg');
+background-size: cover;}
+
+.footer {position: fixed;position: bottom;}
 
 .push {display: block; height: 100px;}
 

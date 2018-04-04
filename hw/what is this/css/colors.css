@@ -1,0 +1,60 @@
+/*font-family: 'Questrial', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+
+.dark-bg {background: #AE4300;}
+.medium-bg {background: #FF6708;}
+.light-bg {background: #f4e6e6;
+height: 100px;}
+
+.dark-txt {color: #18231d;}
+.medium-txt {color: #FF6708;}
+.light-txt {color: #FFA066;}
+
+.gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery ul {
+  padding: 0;
+  margin: 0;
+list-style-type: none;
+}
+
+.gallery {width:960px;}
+.gallery li {
+width:300px;
+height: 300px;
+margin:10px;
+float:left;
+}
+
+/* add clear to make float work, to  make placeholder images do
+ http://placehold.it/imagesize */
+
+
+body {padding: 0;
+margin: 0;}
+
+nav ul {
+list-style-type: none;
+padding-left: 0;}
+
+nav a {text-decoration: none;}
+
+img{ max-width: 100%;}
+
+
+footer p {padding: 25px;}
+
+#header {
+background-color: #f4e6e6;
+height: 50px;
+font: 'Questrial';
+font-family: sans-serif;
+color: #18231d;
+align-content: center;
+
+}
